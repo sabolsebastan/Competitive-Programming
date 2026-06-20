@@ -1,0 +1,5 @@
+y = int(input())
+for year in range(y+1, 9013):
+        if len(set(str(year))) == 4:
+                print(year)
+                break
